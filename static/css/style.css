@@ -1,0 +1,134 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    text-align: center;
+}
+
+/* Background for index.html */
+.index-background {
+    background: url('/static/images/medical1.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensure the image covers the entire background */
+}
+
+/* Background for book.html */
+.book-background {
+    background: url('/static/images/medical2.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensure the image covers the entire background */
+}
+
+/* Container styling to hold the text */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+/* Banner Image */
+.banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Button Styling */
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Form Elements */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* List Styling */
+.recommendation-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recommendation-list li {
+    padding: 10px;
+    background-color: #e0f7e9;
+    border: 1px solid #d1e6d9;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
